@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vm, vh, % 
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+
+            /* lighter, normal, bold bolder */
+        }
+
+        h1{
+            
+            /* shorthand font            
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            NO LUGAR DE USAR ESSA LINHAS, É POSSIVEL USAR NESSA ORDEM ACIMA
+
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Poppins', sans-serif;
+        }
+
+        h2 { 
+            font: normal 2em 'Poppins';
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum cumque facilis sint reprehenderit magni necessitatibus quisquam totam sapiente nam adipisci officiis, quidem cum unde labore repudiandae perferendis iure quos doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequuntur expedita vitae voluptatibus eaque ipsam voluptate quas unde placeat? Iusto odit facere commodi reprehenderit consectetur quidem ipsum nesciunt repellat distinctio.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio pariatur perferendis autem sit. Eligendi dignissimos odit sapiente deserunt ex nam enim, illum, voluptates ipsam, minima nulla ad deleniti rem dolorem!</p>
+    
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ut et quisquam vero assumenda recusandae maiores sit, ex quibusdam vel praesentium aperiam tenetur odio sequi dolore cumque quod autem odit.</p>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+            #  = id
+            .  = clas
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children 
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        .especial{
+            background-color: aqua;
+        }
+
+        .especial::before {
+            content: '\002714';
+        }
+
+        .especial::after {
+            content: '\002714'; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/IIV1CTORII?tab=repositories" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/@IIV1CTORII" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" class="especial">Site dos Cursos</a></li>
+    </ul>
+</body>
+</html>
