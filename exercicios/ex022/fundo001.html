@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+       
+        /* AQUI ESTÁ AS TRÊS FORMAS DE SE ALTERAR O BACKGROUND, A PRIMERIA SENDO A MAIS SIMPLES COM CORES, A SEGUNDA COM CORES DEGRADÊ E A TERCEIRA SENDO COM IMAGENS TANTO LOCAIS QUANTO DA INTERNET */
+
+       body {
+        background-image: url(imagens/wallpaper001.jpg);
+       } 
+
+       div.quadrado {
+            display: inline-block;
+            border: 3px solid black;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #q1 {
+            background-color: lightgreen;
+        }
+
+        #q2 {
+            background-image: linear-gradient(to bottom, green,yellow);
+        }
+
+        #q3 {
+            background-image: url(imagens/pattern001.png)
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
