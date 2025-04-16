@@ -10,15 +10,18 @@
             /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
-            background-repeat: no-repeat;
-            background-attachment: fixed; 
-
-            Shorthand - background 
-                color > image > position > repeat > [size] 
-                > attachment
-            */
-            background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed;
             background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            Shorthand - background
+                color > image > position > repeat > [size]
+                > attachment
+            
+            Normalmente não é possivel usar a shorthand da forma acima, mas usando o valor de background-size com uma "/" e colocando o antes do background-repeat é possivel usar o shorthand completamente */
+            
+            background: black url(imagens/wallpaper002.jpg) center top /cover no-repeat fixed;
+            
         }
         main {
             background-color: white;
@@ -39,7 +42,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos saepe aut voluptates! Illum illo alias labore neque numquam temporibus harum voluptates, veritatis quibusdam. Minus harum doloribus commodi modi ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, non, libero vero quibusdam, doloribus soluta excepturi inventore nobis esse voluptatem molestias? Minus est temporibus consequuntur ea esse, eius facere ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptas nemo hic accusamus dolores nostrum facere aut provident. Distinctio odit cumque amet esse perspiciatis eius ullam et sunt ipsam atque!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos saepe aut voluptates! Illum illo alias labore neque numquam temporibus harum voluptates, veritatis quibusdam. Minus harum doloribus commodi modi ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, non, libero vero quibusdam, doloribus soluta excepturi inventore nobis esse voluptatem molestias? Minus est temporibus consequuntur ea esse, eius facere ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptas nemo hic accusamus dolores nostrum facere aut provident. Distinctio odit cumque amet esse perspiciatis eius ullam et sunt ipsam atque!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos saepe aut voluptates! Illum illo alias labore neque numquam temporibus harum voluptates, veritatis quibusdam. Minus harum doloribus commodi modi ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, non, libero vero quibusdam, doloribus soluta excepturi inventore nobis esse voluptatem molestias? Minus est temporibus consequuntur ea esse, eius facere ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptas nemo hic accusamus dolores nostrum facere aut provident. Distinctio odit cumque amet esse perspiciatis eius ullam et sunt ipsam atque!</p>
-        
+
     </main>
 </body>
 </html>
