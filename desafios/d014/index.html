@@ -19,34 +19,37 @@
             border: 2px solid black;
         }
 
-        .numero {
-            text-align: center;
-        }
-
         .media {
             background-color: gray;
             color: white;
             text-align: left;
         }
 
-        .cabeca {
+        .destaque {
             background-color: gray;
             color: white;
+            text-align: center;
+            font-weight: bold;
         }
+
+        .numero {
+            text-align: center;
+        }
+        
     </style>
 </head>
 <body>
     <table>
         <thead>
             <tr>
-                <th rowspan="2" class="cabeca" scope="col">Área</th>
-                <th rowspan="2" class="cabeca" scope="col">Disciplinas</th>
-                <th colspan="2" class="cabeca" scope="colgroup">Notas</th>
-                <th rowspan="2" class="cabeca" scope="col">Média</th>
+                <th rowspan="2" class="destaque" scope="col">Área</th>
+                <th rowspan="2" class="destaque" scope="col">Disciplinas</th>
+                <th colspan="2" class="destaque" scope="colgroup">Notas</th>
+                <th rowspan="2" class="destaque" scope="col">Média</th>
             </tr>
             <tr>
-                <th class="cabeca" scope="col">Nota 1</th>
-                <th class="cabeca" scope="col">Nota 2</th>
+                <th class="destaque" scope="col">Nota 1</th>
+                <th class="destaque" scope="col">Nota 2</th>
             </tr>
         </thead>
         <tbody>
@@ -77,7 +80,7 @@
             </tr>
             <tr>
                 <th colspan="4" class="media" scope="row">Média de Exatas</th>
-                <th class="numero cabeca" scope="row">8,67</th>
+                <td class="numero destaque">8,67</td>
             </tr>
             <tr>
                 <th rowspan="2" scope="rowgroup">Humanas</th>
@@ -94,7 +97,7 @@
             </tr>
             <tr>
                 <th colspan="4" class="media" scope="row">Média de Humanas</th>
-                <th class="numero cabeca" scope="row">8,67</th>
+                <td class="numero destaque">8,67</td>
             </tr>
         </tbody>
     </table>
