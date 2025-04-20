@@ -39,19 +39,19 @@
     <table>
         <thead>
             <tr>
-                <th rowspan="2" class="cabeca">Área</th>
-                <th rowspan="2" class="cabeca">Disciplinas</th>
-                <th colspan="2" class="cabeca">Notas</th>
-                <th rowspan="2" class="cabeca">Média</th>
+                <th rowspan="2" class="cabeca" scope="col">Área</th>
+                <th rowspan="2" class="cabeca" scope="col">Disciplinas</th>
+                <th colspan="2" class="cabeca" scope="colgroup">Notas</th>
+                <th rowspan="2" class="cabeca" scope="col">Média</th>
             </tr>
             <tr>
-                <th class="cabeca">Nota 1</th>
-                <th class="cabeca">Nota 2</th>
+                <th class="cabeca" scope="col">Nota 1</th>
+                <th class="cabeca" scope="col">Nota 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
                 <td>Matemática</td>
                 <td class="numero">10.0</td>
                 <td class="numero">8.0</td>
@@ -76,11 +76,11 @@
                 <td class="numero">9.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="media">Média de Exatas</th>
-                <th class="numero cabeca">8,67</th>
+                <th colspan="4" class="media" scope="row">Média de Exatas</th>
+                <th class="numero cabeca" scope="row">8,67</th>
             </tr>
             <tr>
-                <th rowspan="2">Humanas</th>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
                 <td>História</td>
                 <td class="numero">8.0</td>
                 <td class="numero">9.0</td>
@@ -93,8 +93,8 @@
                 <td class="numero">8.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="media">Média de Humanas</th>
-                <th class="numero cabeca">8,67</th>
+                <th colspan="4" class="media" scope="row">Média de Humanas</th>
+                <th class="numero cabeca" scope="row">8,67</th>
             </tr>
         </tbody>
     </table>
