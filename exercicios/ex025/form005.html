@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        fieldset {
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        legend {
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        #enviar {
+            background-color: rgb(31, 199, 31);
+            border-radius: 10px;
+            padding: 6px;
+            border: 0px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        
+        #limpar {
+            background-color: rgb(231, 49, 49);
+            border-radius: 10px;
+            padding: 6px;
+            border: 0px;
+            font-weight: bold;
+            margin-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemmplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imas" value="M" checked> <label for="imas">Masculino</label>
+            <input type="radio" name="sexo" id="ifem" value="F"> <label for="ifem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esfut" checked id="iesfut"> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tênis</label>
+        </fieldset>
+
+        <p>
+            <input id="enviar" type="submit" value="Enviar">
+            <input id="limpar" type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
