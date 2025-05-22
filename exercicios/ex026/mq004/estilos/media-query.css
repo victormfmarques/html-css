@@ -22,7 +22,13 @@ Grandes telas: acima de 1299px
     }
 
     main {
+        width: 90vw;
         border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Esse impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
     }
 
     main h1 {
