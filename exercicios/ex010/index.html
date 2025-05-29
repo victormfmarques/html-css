@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Trabalhando com links</title>
+    <style>
+        .parag {
+            transform: translateY(-20px);
+        }
+
+        #icon {
+            padding-left: 5px;
+            color: black;
+            font-size: 3em;
+            transform: translateY(20px);
+        }
+    </style>
 </head>
 <body>
     <h1>Usando links externos</h1>
     
-    <p>Você pode acessar o meu <a href="https://github.com/IIV1CTORII?tab=repositories" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você pode acessar o meu <a href="https://github.com/victormfmarques" target="_blank" rel="external">repositório público no GitHub</a></p>
     
     <p>Você também pode acessar o meu <a href="https://www.youtube.com/@IIV1CTORII" target="_blank" rel="external">canal gratuito no youtube</a></p>
     
@@ -23,6 +36,7 @@
         </ul>
 
     <h2>Exércicios</h2>
-    <p>Para acessar meu exercício anterior <a href="../ex009/index.html">clique aqui</a></p>
+    <p class="parag">Acesse o exercício anterior <a href="../ex009/index.html"><span id="icon" class="material-symbols-outlined">arrow_circle_left</span></a></p>
+    <p class="parag">Acesse o próximo exercício <a href="../ex011/index.html"><span id="icon" class="material-symbols-outlined">arrow_circle_right</span></a></p>
 </body>
 </html>
