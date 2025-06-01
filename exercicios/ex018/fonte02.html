@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Fontes Externas</title>
     <style>
         @font-face {
@@ -20,18 +21,34 @@
                 - svg
             */
         }
+        
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
-        h1{
+        
+        h1 {
             font-family: 'London', times, serif;
             font-size: 3em;
             font-weight: normal;
+        }
+
+        .parag {
+            transform: translateY(-20px);
+        }
+
+        #icon {
+            padding-left: 5px;
+            color: black;
+            font-size: 3em;
+            transform: translateY(20px);
         }
     </style>
 </head>
 <body>
     <h1>Olá, Mundo!</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium repudiandae tempora inventore molestiae earum, voluptas nihil eum quo deserunt modi! A eveniet veritatis ab possimus! Neque ipsum quo hic explicabo.</p>
+
+    <p class="parag">Acesse o exercício anterior <a href="../ex018/fonte01.html"><span id="icon" class="material-symbols-outlined">arrow_circle_left</span></a></p>
+    <p class="parag">Acesse o próximo exercício <a href="../ex019/seletor01.html"><span id="icon" class="material-symbols-outlined">arrow_circle_right</span></a></p>
 </body>
 </html>

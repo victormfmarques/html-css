@@ -3,19 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Gradiente em CSS</title>
     <style>
-        *{ /*Configurações globais das CSS*/
-            height: 100%;
+        * { /*Configurações globais das CSS*/
+            /* height: 100%; */
         }
 
-        body{
+        body {
             background-image: linear-gradient(to right, #08743A , #1F8A42,#67B643,#8EBF3F );
             background-attachment: fixed;
+        }
+
+        .parag {
+            transform: translateY(-20px);
+        }
+
+        #icon {
+            padding-left: 5px;
+            color: black;
+            font-size: 3em;
+            transform: translateY(20px);
         }
     </style>
 </head>
 <body>
     <h1>Testando Gradiente</h1>
+
+    <p class="parag">Acesse o exercício anterior <a href="../ex016/cor01.html"><span id="icon" class="material-symbols-outlined">arrow_circle_left</span></a></p>
+    <p class="parag">Acesse o próximo exercício <a href="../ex016/cor03.html"><span id="icon" class="material-symbols-outlined">arrow_circle_right</span></a></p>
 </body>
 </html>
