@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.container {
+            background-color: lightgreen;
+            height: 300px;
+            display: flex;
+            /* flex-direction: row; */
+            /* flex-wrap: nowrap; */
+
+            /* SHORTHAND */
+
+            flex-flow: row wrap;
+            margin-bottom: 30px;
+            align-items: stretch;
+            justify-content: flex-start;
+        }
+
+        div.container2 {
+            background-color: lightgreen;
+            height: 300px;
+            display: flex;
+            flex-flow: row-reverse wrap;
+            align-items: start;
+            justify-content: flex-end;
+            margin-bottom: 30px;
+        }
+        
+        div.container3 {
+            background-color: lightgreen;
+            height: 300px;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        
+        div.container4 {
+            background-color: lightgreen;
+            height: 400px;
+            display: flex;
+            flex-flow: column-reverse wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        div.container5 {
+            background-color: lightgreen;
+            height: 400px;
+            display: flex;
+            flex-flow: column-reverse wrap;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+
+        div.container6 {
+            background-color: lightgreen;
+            height: 400px;
+            display: flex;
+            flex-flow: column-reverse wrap;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-bottom: 30px;
+        }
+
+        div.item {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </div>
+    <div class="container2">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </div>
+    <div class="container3">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </div>
+    <div class="container4">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </div>
+    <div class="container5">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </div>
+    <div class="container6">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </div>
+</body>
+</html>
