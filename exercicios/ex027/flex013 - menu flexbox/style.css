@@ -21,31 +21,35 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    /* border: 1px dotted black; */
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.541);
+    flex: 0 0 200px;
 }
 
-nav {
+header > nav {
+    /* border: 1px dotted black; */
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
 }
 
-nav a {
+header > nav > a {
     text-decoration: none;
     color: white;
     padding: 10px;
     background-color: black;
-    margin: 0px 5px;
-    border-radius: 6px;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 nav a:hover {
     color: black;
     background-color: white;
-    transition: .4s
+    transition: background-color .5s
 }
 
 main {
