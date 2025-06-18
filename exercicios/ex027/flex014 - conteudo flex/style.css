@@ -33,9 +33,6 @@ section.flex-content {
     flex-flow: column wrap;
 }
 
-section > article {
-}
-
 article.media-text {
     display: flex;
     flex-flow: row wrap-reverse;
